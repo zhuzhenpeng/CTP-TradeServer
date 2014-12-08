@@ -1,0 +1,14 @@
+*.sdf
+*.suo
+*.ilk
+*.pdb
+*.exe
+*.con
+*vcxproj*
+
+Win32/Release
+TradeServer/Debug
+TradeServer/GeneratedFiles
+TradeServer/Release
+TradeServer/Resources
+!TradeServer/user/acount.ini
