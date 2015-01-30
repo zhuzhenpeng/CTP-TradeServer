@@ -4,11 +4,11 @@
 *.pdb
 *.exe
 *.con
-*vcxproj*
 
 Win32/Release
 TradeServer/Debug
 TradeServer/GeneratedFiles
 TradeServer/Release
 TradeServer/Resources
+TradeServer/TradeServer.vcxproj.user
 !TradeServer/user/acount.ini

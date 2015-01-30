@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Account">
+      <UniqueIdentifier>{908ae80a-41ff-46b2-92bc-9e84ec09d307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Account">
+      <UniqueIdentifier>{8a5ae002-0fc5-4127-94aa-b61185907669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Trader">
+      <UniqueIdentifier>{53672ee8-8a56-410b-a5c5-5732962a3db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trader">
+      <UniqueIdentifier>{aa9ccf50-45ab-41a8-9201-96d07d5605ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{b1e81b4a-6226-47d3-88a6-c3107012a15f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c260c31f-f736-47ee-84ac-4569e578920e}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Trader\command">
+      <UniqueIdentifier>{97a2376d-0599-4cb0-bfae-f4c3adb9bf73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trader\command">
+      <UniqueIdentifier>{6b17a563-f32d-48af-9ba1-49b89439139e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\assist">
+      <UniqueIdentifier>{78c46eea-ce19-46cb-aaab-812b707b4ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assist">
+      <UniqueIdentifier>{3c6ad690-cb29-4bb9-9438-ff54be6b059d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ctp_api">
+      <UniqueIdentifier>{e21829a3-1490-413f-833a-05b7c2122395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Trader\dao">
+      <UniqueIdentifier>{9ddfd361-85aa-4c18-8965-ff269303de44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trader\dao">
+      <UniqueIdentifier>{f4dc3221-c00c-46c0-a280-1acbee5ae4b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GVAR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstrumentInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountID.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPositionCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryFundCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="WithdrawOrderCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertOrderCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundTrader.cpp">
+      <Filter>Source Files\assist</Filter>
+    </ClCompile>
+    <ClCompile Include="MDBroadcast.cpp">
+      <Filter>Source Files\assist</Filter>
+    </ClCompile>
+    <ClCompile Include="MDChannel.cpp">
+      <Filter>Source Files\assist</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MDChannel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MDChannel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MDBroadcast.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MDBroadcast.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CommandQueue.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CommandQueue.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="Trader.cpp">
+      <Filter>Source Files\Trader</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountFund.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="ComfirmSettlementCommand.cpp">
+      <Filter>Source Files\Trader\command</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderDao.cpp">
+      <Filter>Source Files\Trader\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\Trader</Filter>
+    </ClCompile>
+    <ClCompile Include="FundDao.cpp">
+      <Filter>Source Files\Trader\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountPositionDao.cpp">
+      <Filter>Source Files\Trader\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="StrategyPositionDao.cpp">
+      <Filter>Source Files\Trader\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportDao.cpp">
+      <Filter>Source Files\Trader\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="InstructionPort.cpp">
+      <Filter>Source Files\assist</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InstructionPort.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InstructionPort.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Order.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Order.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Trader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Trader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThostFtdcMdApi.h">
+      <Filter>Header Files\ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcTraderApi.h">
+      <Filter>Header Files\ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiDataType.h">
+      <Filter>Header Files\ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ThostFtdcUserApiStruct.h">
+      <Filter>Header Files\ctp_api</Filter>
+    </ClInclude>
+    <ClInclude Include="GVAR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstrumentInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountID.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertOrderCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="WithdrawOrderCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryFundCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPositionCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountFund.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="ComfirmSettlementCommand.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderDao.h">
+      <Filter>Header Files\Trader\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountPositionDao.h">
+      <Filter>Header Files\Trader\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="StrategyPositionDao.h">
+      <Filter>Header Files\Trader\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportDao.h">
+      <Filter>Header Files\Trader\dao</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="BackgroundTrader.h">
+      <Filter>Header Files\assist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MDChannel.h">
+      <Filter>Header Files\assist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MDBroadcast.h">
+      <Filter>Header Files\assist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CommandQueue.h">
+      <Filter>Header Files\Trader\command</Filter>
+    </CustomBuild>
+    <CustomBuild Include="InstructionPort.h">
+      <Filter>Header Files\assist</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Order.h">
+      <Filter>Header Files\Trader</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FundDao.h">
+      <Filter>Header Files\Trader\dao</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Trader.h">
+      <Filter>Header Files\Trader</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
